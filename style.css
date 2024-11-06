@@ -1,0 +1,9 @@
+#calculator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+#calculator * {
+    flex: 0 1 calc(350px / 4);
+}
